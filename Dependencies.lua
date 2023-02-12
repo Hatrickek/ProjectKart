@@ -4,17 +4,18 @@
 VULKAN_SDK = os.getenv("VULKAN_SDK")
 
 IncludeDir = {}
-IncludeDir["Oxylus"] = "%{wks.location}/Oxylus/src/OxylusEngine.h";
-IncludeDir["rapidyaml"] = "%{wks.location}/Oxylus/vendor/rapidyaml/include"
-IncludeDir["GLFW"] = "%{wks.location}/Oxylus/vendor/GLFW/include"
-IncludeDir["ImGui"] = "%{wks.location}/Oxylus/vendor/ImGui"
-IncludeDir["ImGuizmo"] = "%{wks.location}/Oxylus/vendor/ImGuizmo"
-IncludeDir["glm"] = "%{wks.location}/Oxylus/vendor/glm"
-IncludeDir["entt"] = "%{wks.location}/Oxylus/vendor/entt"
-IncludeDir["ktx"] = "%{wks.location}/Oxylus/vendor/ktx/include"
-IncludeDir["miniaudio"] = "%{wks.location}/Oxylus/vendor/ktx/miniaudio"
-IncludeDir["PhysX"] = "%{wks.location}/Oxylus/vendor/PhysX/PhysX/include"
-IncludeDir["tinygltf"] = "%{wks.location}/Oxylus/vendor/tinygltf"
+IncludeDir["Oxylus"] = "%{wks.location}/Oxylus/Oxylus/src/"
+IncludeDir["vendor"] = "%{wks.location}/Oxylus/Oxylus/vendor/"
+IncludeDir["rapidyaml"] = "%{wks.location}/Oxylus/Oxylus/vendor/rapidyaml/include"
+IncludeDir["GLFW"] = "%{wks.location}/Oxylus/Oxylus/vendor/GLFW/include"
+IncludeDir["ImGui"] = "%{wks.location}/Oxylus/Oxylus/vendor/ImGui"
+IncludeDir["ImGuizmo"] = "%{wks.location}/Oxylus/Oxylus/vendor/ImGuizmo"
+IncludeDir["glm"] = "%{wks.location}/Oxylus/Oxylus/vendor/glm"
+IncludeDir["entt"] = "%{wks.location}/Oxylus/Oxylus/vendor/entt"
+IncludeDir["ktx"] = "%{wks.location}/Oxylus/Oxylus/vendor/ktx/include"
+IncludeDir["miniaudio"] = "%{wks.location}/Oxylus/Oxylus/vendor/ktx/miniaudio"
+IncludeDir["PhysX"] = "%{wks.location}/Oxylus/Oxylus/vendor/PhysX/PhysX/include"
+IncludeDir["tinygltf"] = "%{wks.location}/Oxylus/Oxylus/vendor/tinygltf"
 IncludeDir["VulkanSDK"] = "%{VULKAN_SDK}/Include"
 
 LibraryDir = {}

@@ -17,7 +17,19 @@ project "ProjectKart"
 	includedirs
 	{
 		"src",
-		"%{wks.location}/Oxylus/Oxylus/src/";
+		"%{IncludeDir.Oxylus}",
+		"%{IncludeDir.vendor}",
+		"%{IncludeDir.GLFW}",
+		"%{IncludeDir.ImGui}",
+		"%{IncludeDir.glm}",
+		"%{IncludeDir.entt}",
+		"%{IncludeDir.rapidyaml}",
+		"%{IncludeDir.ImGuizmo}",
+		"%{IncludeDir.VulkanSDK}",
+		"%{IncludeDir.PhysX}",
+		"%{IncludeDir.tinygltf}",
+		"%{IncludeDir.ktx}",
+		"%{IncludeDir.miniaudio}",
 	}
 
 	links

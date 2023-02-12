@@ -1,11 +1,13 @@
 #include <OxylusEngine.h>
 #include <core/EntryPoint.h>
 
+#include "GameLayer.h"
+
 namespace Oxylus {
     class MavreasEditor : public Application {
     public:
         MavreasEditor(const AppSpec& spec) : Application(spec) {
-            PushLayer(new EditorLayer());
+            PushLayer(new ProjectKart::GameLayer());
         }
     };
 

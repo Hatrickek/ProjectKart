@@ -1,0 +1,3 @@
+[submodule "Oxylus"]
+	path = Oxylus
+	url = https://github.com/Hatrickek/Oxylus-Engine.git
